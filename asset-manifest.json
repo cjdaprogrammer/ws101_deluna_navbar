@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ws101_deluna_navbar/static/css/main.9607e7d5.css",
+    "main.js": "/ws101_deluna_navbar/static/js/main.d019eed9.js",
+    "static/js/453.1b179f94.chunk.js": "/ws101_deluna_navbar/static/js/453.1b179f94.chunk.js",
+    "index.html": "/ws101_deluna_navbar/index.html",
+    "main.9607e7d5.css.map": "/ws101_deluna_navbar/static/css/main.9607e7d5.css.map",
+    "main.d019eed9.js.map": "/ws101_deluna_navbar/static/js/main.d019eed9.js.map",
+    "453.1b179f94.chunk.js.map": "/ws101_deluna_navbar/static/js/453.1b179f94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9607e7d5.css",
+    "static/js/main.d019eed9.js"
+  ]
+}
