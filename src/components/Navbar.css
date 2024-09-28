@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d; /* Dark background */
+    color: #fff;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #111; /* Darker navbar */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-logo {
+    color: #00bfff; /* Neon sky blue for logo */
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Neon glow effect */
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links li a {
+    color: #00bfff; /* Neon sky blue effect on links */
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 0 0 5px #00bfff, 0 0 10px #00bfff; /* Neon glow effect */
+}
+
+.nav-links li a:hover {
+    color: #fff; /* Change to white on hover */
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff; /* Bright glow effect on hover */
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 48px;
+    color: #00bfff; /* Neon sky blue */
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Neon glow effect */
+    margin-bottom: 20px;
+}

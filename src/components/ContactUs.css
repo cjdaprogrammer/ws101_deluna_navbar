@@ -1,0 +1,81 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.contact-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #00bfff; /* Sky blue neon for heading */
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+}
+
+.contact-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 15px #fff;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #111; /* Dark background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 191, 255, 0.3); /* Light blue neon glow effect around the form */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #00bfff; /* Sky blue neon for labels */
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #222; /* Dark background for input fields */
+    color: #fff;
+    box-shadow: 0 0 10px #00bfff, 0 0 15px #00bfff; /* Sky blue glow around input fields */
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #00bfff;
+    outline: none;
+    box-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff; /* Focused sky blue glow */
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #00bfff; /* Sky blue neon for button */
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 15px #00bfff;
+}
+
+.submit-btn:hover {
+    background-color: #87CEEB; /* Slightly lighter blue on hover */
+}

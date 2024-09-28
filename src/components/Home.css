@@ -1,0 +1,25 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #000; /* Dark background */
+    color: #fff;
+}
+
+.main-content h1 {
+    font-size: 48px;
+    color: #00bfff; /* Neon sky blue color */
+    text-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff, 0 0 30px #00bfff;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 10px #00bfff, 0 0 15px #00bfff; /* Subtle neon blue for paragraph */
+    max-width: 800px;
+    margin: 0 auto;
+}
